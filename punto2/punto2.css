@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://res.cloudinary.com/dulupp7yk/image/upload/v1685040639/torresdehanoi/lago_zshqnc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: #ffffff3d;
+}
+#container {
+    margin-top: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+#form_container, #form_container2 {
+    background-color: #ffffff54;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+#form_form, #form_response{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    row-gap: 1rem;
+}
+#form_container2{
+    display: none;
+}
