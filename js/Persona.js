@@ -1,11 +1,14 @@
 export default class Persona {
-    constructor({nombre, edad, sexo}) {
+    constructor({ edad, sexo, nombre}) {
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = sexo;
     }
     saludar() {
-        console.log(`Hola, soy ${this.nombre} y tengo ${this.edad} años`);
+        return `Hola, soy ${this.nombre} y tengo ${this.edad} años`;
+    }
+    static esMayorDeEdad(edad) {
+        return edad >= 18;
     }
 }
 
