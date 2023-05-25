@@ -17,6 +17,19 @@ body {
     color: #fff;
     line-height: 1.5;
 }
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: #ffffff3d;
+}
 #container {
     margin-top: auto;
     height: 100vh;
